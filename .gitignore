@@ -1,0 +1,33 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local agent/tooling state
+.agents/
+.codex/
+.claude/
+
+# Go build artifacts
+bin/
+*.test
+*.out
+*.prof
+coverage.out
+cover.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Wails / frontend artifacts
+/wails
+cmd/wails/frontend/node_modules/
+cmd/wails/frontend/dist/
+cmd/wails/frontend/.vite/
+cmd/wails/frontend/*.tsbuildinfo
+cmd/wails/build/bin/
+
